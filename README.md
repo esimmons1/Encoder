@@ -33,7 +33,7 @@ You can tweak:
 Inspired by:
 ------------
 - The classic Playfair cipher from 1854.
-- The website at https://planetcalc.com/7751/ which does a similar thing.
+- The website at https://planetcalc.com/7751 which does a similar thing.
 
 Notes:
 ------
