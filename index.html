@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Message Encoder/Decoder</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Playfair Cipher</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-  <h2>Message Encoder/Decoder</h2>
-  <select id="mode" onchange="toggleMode()">
-    <option value="encode">Encode a Message</option>
-    <option value="decode">Decode a Message</option>
-  </select>
-  <textarea id="message" rows="4" placeholder="Enter your message..."></textarea>
-  <input type="number" id="key" placeholder="Key (number)" />
-  <div>
-    <button id="encodeBtn" onclick="encode()">Encode</button>
-    <button id="decodeBtn" onclick="decode()">Decode</button>
-  </div>
-  <div>
-    <h3>Output:</h3>
-    <textarea id="output" rows="4" readonly placeholder="Your result will appear here..."></textarea>
-  </div>
-</div>
-<script src="script.js"></script>
+  <h2>Playfair Cipher Encoder/Decoder</h2>
+  <p>Key:</p>
+  <input id="key" type="text" placeholder="Enter key word">
+  <p>Message:</p>
+  <textarea id="message" rows="4"></textarea>
+  <p>
+    <button id="encrypt">Encrypt</button>
+    <button id="decrypt">Decrypt</button>
+  </p>
+  <p>Output:</p>
+  <textarea id="output" rows="4" readonly></textarea>
+  <script src="script.js"></script>
 </body>
 </html>
