@@ -2,7 +2,7 @@ Playfair Cipher Encoder/Decoder
 ===============================
 
 Made by: Ellis Simmons, May 2025  
-Language: HTML, CSS, JavaScript
+Language: JavaScript, HTML, CSS
 
 What is this?
 --------------
