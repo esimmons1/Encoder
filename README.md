@@ -37,7 +37,7 @@ Inspired by:
 
 Notes:
 ------
-This is a straightforward demonstration of the Playfair cipher, so it’s not secure by modern standards. Still, it’s a neat historical cipher and a fun project!
+This is a straightforward demonstration of the Playfair cipher. I made it into a website for ease of use.
 
 ---
 As per usual, if you’re going to steal or use it at least credit me please. Thank you for reading and have a nice day.
